@@ -2,11 +2,19 @@
 
   // Rory's additions beg //
 
+  .header {
+    .borders();
+  }
+
   .top-content {
     display: flex;
     flex-direction: column;
-
+    
+    .top-pic {
+      margin-bottom: 15px;
+    }
   }
+
 
   .top-pic {
 
@@ -19,6 +27,16 @@
 
   .btn {
     .button(@button-bg, @white, 10px, 100%);
+  }
+
+  // Breakpoints
+
+  @media @mobile {
+    .header {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
   }
 
   // Rory's additions end //
