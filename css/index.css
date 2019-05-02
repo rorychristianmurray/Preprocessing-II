@@ -1,6 +1,7 @@
 @nav-font-size : 1.rem;
 .nav-buttons-styling {
   font-size: 1.2rem;
+  margin: 20px;
   color: #212529;
   text-decoration: none;
 }
@@ -174,10 +175,21 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.topname {
+  border: 1px solid red;
+}
 .navbar {
   display: flex;
   justify-content: flex-end;
+  border: 1px solid red;
+}
+.navbutton {
   font-size: 1.2rem;
+  margin: 20px;
   color: #212529;
   text-decoration: none;
 }
