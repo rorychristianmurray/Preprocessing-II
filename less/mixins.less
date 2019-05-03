@@ -1,1 +1,21 @@
 // Mixins in here
+
+// Rory's Mixins
+
+.nav-buttons-styling {
+    font-size: 1.2rem;
+    margin: 20px;
+    color: @shark;
+    text-decoration: none;
+}
+
+.borders {
+    border-bottom: 2px dashed rgb(192, 192, 192);
+}
+
+.button(@button-background-color, @button-text-color, @button-radius, @button-width) {
+    background: @button-background-color;
+    color: @button-text-color;
+    border-radius: @button-radius;
+    width: @button-width;
+}
